@@ -13,7 +13,7 @@ let getHomePage = async (req, res) => {
             data: JSON.stringify(data)
         });
     } catch (err) {
-        console.log(e);
+        console.log(err);
     }
 
 
